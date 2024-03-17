@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    background-color: black;
+    
+}
+
+div {
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    padding: 15px;
+    width: 90px;
+    /* background: linear-gradient(skyblue, lightpink); */
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(blue, skyblue);
+    border-bottom: 2px solid black;
+    transform: scale(1.1);
+}
+
+input {
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+table {
+    /* box-shadow: 0px 0px 30px red; */
+    border-radius: 10px;
+    width: 400px;
+    background: linear-gradient(to right,  rgba(0, 0, 0, 0.537), rgba(255, 0, 0, 0.329 ,  rgba(0, 0, 0, 0.537)));
+    /* background: radial-gradient(pink, orange, skyblue); */
+    border: 1px solid rgb(255, 254, 254);
+    padding: 10px;
+    margin: auto;
+    height: 400px;
+}
+tr, td{
+    /* border: 2px solid red; */
+    background-color: transparent;
+}
+
+#equal {
+    width: 180px;
+    /* background: linear-gradient(rgba(255, 0, 0, 0.511), rgb(0, 128, 0)); */
+    background-color: green;
+}
+
+#equal:hover {
+    background: linear-gradient(green, lightgreen);
+}
+
+#clear {
+    width: 180px;
+    /* background: linear-gradient(rgba(255, 0, 0, 0.235), indianred); */
+    background-color: indianred;
+}
+
+#clear:hover {
+    background: linear-gradient(red, white);
+}
+
+h1 {
+    color: indianred;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 50px;
+}
